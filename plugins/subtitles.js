@@ -31,10 +31,10 @@ var attachSubtitles = function(ctx) {
   }
   ctx.options.playlist[0].media.textTrackStyle = {
     backgroundColor: '#00000000',
-    foregroundColor: '#FFFF00FF',
+    foregroundColor: '#FFFFFFFF',
     edgeType: 'OUTLINE',
     edgeColor: '#000000FF',
-    fontScale: 1,
+    fontScale: 1.25,
     fontStyle: 'NORMAL',
     fontFamily: 'Droid Sans',
     fontGenericFamily: 'SANS_SERIF',
@@ -47,8 +47,6 @@ var attachSubtitles = function(ctx) {
     type: 'TEXT',
     trackContentId: ctx.options.subtitles,
     trackContentType: 'text/vtt',
-    name: 'English',
-    language: 'en-US',
     subtype: 'SUBTITLES'
   }];
   ctx.options.playlist[0].activeTrackIds = [1];
