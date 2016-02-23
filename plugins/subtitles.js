@@ -1,6 +1,6 @@
 var http = require('http');
 var fs = require('fs');
-var srt2vtt = require('srt2vtt');
+var srt2vtt = require('@naholyr/srt2vtt');
 var internalIp = require('internal-ip');
 var debug = require('debug')('castnow:subtitles');
 var got = require('got');
