@@ -1,3 +1,8 @@
+@naholyr's fork:
+
+* updated ``peerflix`` for security reason
+* updated ``srt2vtt`` (using fork) to fix codepage issue
+
 # castnow
 
 castnow is a command-line utility that can be used to play back media files on
